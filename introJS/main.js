@@ -66,7 +66,7 @@ console.table(pet)
 
 
 //4.
-let fruits = ["banana", "pera", "melon", "sandia", "uva"]
+let fruits = ["banana", "pear", "melon", "watermelon", "grape"]
 console.log(fruits)
 console.log(fruits[0])
 console.log(fruits[1])
@@ -94,7 +94,7 @@ console.log(numbers[3])
 console.log(numbers[4])
 
 //3.
-let family = ["mamá", "papá", "hermana mayor", "hermana menor", "mascotas"]
+let family = ["mom", "dad", "older sister", "younger sister", "pets"]
 console.log(family)
 console.log(family[0])
 console.log(family[1])
@@ -103,7 +103,8 @@ console.log(family[3])
 console.log(family[4])
 
 //4.
-
+let randomText= ("My "+ family[4] + " love "+ fruits[1] + ", so much so that they eat around "+ numbers [3]+ " "+ fruits[1] + " for year.")
+console.log(randomText)
 
 
 
