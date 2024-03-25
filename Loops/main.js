@@ -3,7 +3,7 @@
 //Difficulty Level: Low
 
 //1.
-//REVISAR!!!
+
 /*  let numero = parseInt(prompt("ingrese un numero entre 1 y 100"))
 let array = []
  for (let index = 0; index < numero;  numero = numero - 1) {   
@@ -69,27 +69,27 @@ console.log("la suma de los numero es :" + parseInt(suma)) */
 //1.
 /* let numero
 let contador = 0
-let numSecreto = 8
-
-while(numero != numSecreto){
+let numSecreto = Math.floor(Math.random() * 100)
+//console.log(numSecreto);
+while (numero != numSecreto) {
   numero = parseInt(prompt("Entre a number"))
-  if(numero > numSecreto){
+  if (numero > numSecreto) {
     console.log("the number entered is greater than the secret");
   }
-  else{
+  else {
     console.log("the number entered is less than the secret");
   }
-  contador +=1  
+  contador += 1
 }
-alert("You got it right! The secret number was "+numSecreto +" and you made "+ parseInt(contador)+" attempts")
- */
+alert("You got it right! The secret number was " + numSecreto + " and you made " + parseInt(contador) + " attempts") */
+
 //2
 /* let num = parseInt(prompt("Enter a number: "))
- 
+
 for (let divisor = 2; divisor < num/2; divisor++) {
   if (num % divisor === 0) {
     console.log("los divide "+divisor );
-  }  
+  }
 }
  */
 
@@ -126,7 +126,7 @@ for (const iterator of color) {
   let color = ["red", "green", "blue", "violet", "brown", "black", "white"]
 for (const iterator of color) {
   console.log(iterator);
-} 
+}
 }
 colors() */
 
@@ -144,11 +144,11 @@ let hija = { nombre: `Laura`, apellido: `Pérez`, edad: 15, miembro: `hija` }
 let hijo = { nombre: `Marcos`, apellido: `Pérez`, edad: 13, miembro: `hijo` }
 
 function familia(object) {
-  
+
   for (const key in object) {
     if (Object.hasOwnProperty.call(object, key)) {
       console.log("Hola, soy " + object.nombre+ ' '+ object.apellido+" ("+object.miembro +")"+ " y tengo "+ object.edad+ " años.");
-      
+
     }
   }
 }
@@ -179,7 +179,7 @@ console.log("la suma de los numeros impares es: " + parseInt(impares)); */
 
 //2.
 //prueba n°1
-let arrayNumeros =[2, 3, 5, 7, 20, 50, 6, 45, 3, 1]
+/* let arrayNumeros =[2, 3, 5, 7, 20, 50, 6, 45, 3, 1]
 console.log(Math.max(...arrayNumeros));
 
 //pueba n° 2, con ingreso de los 10 numeros por teclado
@@ -189,5 +189,5 @@ for (let index = 0; index < 10; index++) {
   array2.push(num)
 }
 console.log(Math.max(...array2));  
-
+ */
 

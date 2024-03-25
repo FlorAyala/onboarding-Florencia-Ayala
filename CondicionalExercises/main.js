@@ -45,7 +45,18 @@ else {
 } */
 
 //5.
+/*  let date1 = prompt("ingrese una fecha, con - entreaño, mes y dia. ej (2018-9-2)");
+ let date2 = prompt("ingrese una fecha, con - entreaño, mes y dia. ej (2018-9-2)");
 
+ if (date1 > date2) {
+    console.log(`The date ` + date1 + `is greater than ` + date2)
+}
+else if (date1 === date2) {
+    console.log(`The dates are the same`)
+}
+else {
+    console.log(`The date ` + date2 + `is greater than ` + date1)
+}  */
 //6.
 /* let number1 = 5;
 let number2 = 7;
@@ -189,7 +200,7 @@ switch (parseInt(numOperacion)) {
 //Difficulty Level: High
 
 //1.
-let nameCustomer = prompt("Customer name")
+/* let nameCustomer = prompt("Customer name")
 let pass = prompt ("Pass (vip or normal)?")
 let entrance = confirm("Entrance (yes or no)")
 if(nameCustomer == "flor"){
@@ -216,4 +227,4 @@ if(nameCustomer == "flor"){
             alert("rejection message")
         }
     }
-}
+} */
