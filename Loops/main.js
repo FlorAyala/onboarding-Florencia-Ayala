@@ -69,7 +69,7 @@ console.log("la suma de los numero es :" + parseInt(suma)) */
 //1.
 /* let numero
 let contador = 0
-let numSecreto = Math.floor(Math.random() * 100)
+let numSecreto = Math.round(Math.random() * 100)
 //console.log(numSecreto);
 while (numero != numSecreto) {
   numero = parseInt(prompt("Entre a number"))
