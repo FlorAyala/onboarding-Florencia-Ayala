@@ -161,20 +161,33 @@ familia(hijo) */
 //1.
 
 
-let numero 
+/* let numero
 let pares = 0
- let impares = 0
- numero = parseInt(prompt("Entre a number"))
+let impares = 0
 do {
-  if(numero % 2 == 0){
-    
+  numero = parseInt(prompt("Entre a number"))
+  if (numero % 2 == 0) {
     pares = pares + numero
-    console.log(typeof(pares));
   }
-  else{
+  else {
     impares = impares + numero
-    console.log(impares);
   }
 } while (numero != 0);
-console.log("la suma de los numeros pares es: "+ parseInt(pares));
-console.log("la suma de los numeros impares es: "+ parseInt(impares));
+console.log("la suma de los numeros pares es: " + parseInt(pares));
+console.log("la suma de los numeros impares es: " + parseInt(impares)); */
+
+
+//2.
+//prueba n°1
+let arrayNumeros =[2, 3, 5, 7, 20, 50, 6, 45, 3, 1]
+console.log(Math.max(...arrayNumeros));
+
+//pueba n° 2, con ingreso de los 10 numeros por teclado
+let array2 = []
+for (let index = 0; index < 10; index++) {
+  let num = parseInt(prompt("Ingrese 10 numeros"))
+  array2.push(num)
+}
+console.log(Math.max(...array2));  
+
+
