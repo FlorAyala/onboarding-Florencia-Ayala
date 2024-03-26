@@ -35,28 +35,31 @@
 // let date2 = "2023-7-5";
 
 /* if (date1 > date2) {
-    console.log(`The date ` + date1 + `is greater than ` + date2)
+    console.log(`The date " ${date1}  " is greater than " ${ date2}`)
 }
 else if (date1 === date2) {
     console.log(`The dates are the same`)
 }
 else {
-    console.log(`The date ` + date2 + `is greater than ` + date1)
-} */
+    console.log(`The date ${ date2}  is greater than  ${date1}`)
+}
+ */
 
 //5.
 /*  let date1 = prompt("ingrese una fecha, con - entreaño, mes y dia. ej (2018-9-2)");
  let date2 = prompt("ingrese una fecha, con - entreaño, mes y dia. ej (2018-9-2)");
 
  if (date1 > date2) {
-    console.log(`The date ` + date1 + `is greater than ` + date2)
+    console.log(`The date ${ date1}  is greater than  ${ date2}`)
 }
 else if (date1 === date2) {
     console.log(`The dates are the same`)
 }
 else {
-    console.log(`The date ` + date2 + `is greater than ` + date1)
-}  */
+    console.log(`The date ${date2 } is greater than ${ date1}`)
+} 
+ */
+
 //6.
 /* let number1 = 5;
 let number2 = 7;
