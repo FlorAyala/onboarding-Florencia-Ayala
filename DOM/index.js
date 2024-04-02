@@ -25,10 +25,17 @@ let crearCards = function (objeto) {
     <p class="pl-2 pb-[10px]"> ${objeto.descripcion}"</p>
 </div> `
 }
-for (const iterator of fruta) {
+
+//7
+/* for (const iterator of fruta) {
     contenedor.innerHTML += crearCards(iterator)
 
-}
+} */
+fruta.forEach(elemento => contenedor.innerHTML += crearCards(elemento))
+
+
+
+
 //lista
 let listaIndex= document.getElementById("contenedorLista")
 listaIndex.innerHTML = "Frutas Dulces"
