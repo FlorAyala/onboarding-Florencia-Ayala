@@ -44,47 +44,47 @@ console.log(cervezasFiltradas(beers).sort((a,b) => a.ibu - b.ibu).splice(0,10));
 //5
 /* let cervezasFiltradas = (beers) => beers.filter(cerveza => cerveza.abv )
 console.log(cervezasFiltradas(beers));
-console.log(cervezasFiltradas(beers).sort((a,b) => a.abv - b.abv).splice(0,10));
+console.log(cervezasFiltradas(beers).sort((a,b) => a.abv - b.abv).splice(0,10));*/
  
 
 
 
 //6
-/* let nombre = prompt("ingrese el nombre de una cerveza")
+/*  let nombre = prompt("ingrese el nombre de una cerveza").toLocaleLowerCase
 
 let compracion = (array, nombre) => array.find(e => e.name == nombre)
 
-console.log(compracion(beers, nombre)); */
+console.log(compracion(beers, nombre));  */
 
 //7
 
 /* let valor = parseInt(prompt("ingrese :"))
-let compracion = (array, valor) => array.find(e => e.ibu == valor )
+let compracion =  array.find(e => e.ibu == valor )
 //console.log(compracion); 
-console.log(compracion(beers, valor));
 
-if(compracion != undefined){
-    console.log(compracion(beers,valor));
+
+if(compracion ){
+    console.log(compracion);
 }
 else{
-    console.log("No hay cerveza con un ibu de (valor ingresado)");
+    console.log("No hay cerveza con un ibu de (${valor})");
 }
 
 */
 
 
 //8
-
+/* 
 let nombre =prompt("ingrese :").toLocaleLowerCase
-let compracion = (array, nombre) => array.findIndex(e => e.name.toLocaleLowerCase() == nombre )
+let compracion = array.findIndex(e => e.name.toLocaleLowerCase() == nombre )
 //console.log(compracion); 
-//console.log(compracion(beers, nombre));
+
 
 if(compracion !== -1){
-    console.log(compracion(beers,nombre));
+    console.log(compracion);
 }else{
-    console.log("No hay cerveza con un ibu de (valor ingresado)");
-}
+    console.log("Esa cerveza no existe");
+} */
  
   
 
@@ -101,6 +101,8 @@ arrayFinal.push(obj)
 })
  console.log(arrayNuevo(beers));
  console.log(arrayFinal); */
+
+
 
 
 //10
@@ -121,7 +123,19 @@ let cervezas = (beers, filtroCerveza, booleano) => beers.filter((e) => e.ebc < v
     }
 })
 console.log(cervezas(beers ,valorEBC, filtroCerveza));  */
+ //10(opcion 2)
+/*  let cervezasOrdenadas = (array, prop, booleano) =>{
+    if(booleano){
+        let ascendente = array.sort((a, b) => a[prop] - b[prop]).splice(0,10)
+        return ascendente
+    }else{
+        let desendente = array.sort((a, b) =>  b[prop] - a[prop]).splice(0,10)
+        return desendente
+    }
 
+} 
+    cervezasOrdenadas(beers, "ibu", true)
+ */
 
 //11
  let tablaIndexCervezas = document.getElementById("tablasCervezas")
