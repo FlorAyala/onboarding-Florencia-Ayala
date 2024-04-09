@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Graffiti Exercise</title>
+</head>
+
+<body>
+    <header></header>
+    <main class="flex p-3 bg-black flex flex-col">
+        <!-- ----------EJEERCICIO 1/2--------- -->
+        <div class="flex flex-row mt-10">
+            <section class="h-screen w-1/3 bg-gray-300 rounded-md flex justify-center items-center">
+                <!-- FORM -->
+                <form action="" class="w-11/12 h-5/6 bg-gray-200 border-2 rounded-md flex flex-col gap-8">
+                    <label for="">Ingrese un texto</label>
+                    <input type="text" name="" id="textoInput">
+                    <label for="">Escoja un color</label>
+                    <input type="color" name="" id="inputColor" >
+                    <label for="">Graffiti</label>
+                    <input type="radio" name="letra" id="italic"> 
+                    <label for="">Poster</label>
+                    <input type="radio" name="letra" id="noItalic"> 
+
+                    <button id="boton" type="submit" class="border-2 bg-yellow-400 p-1 pr-10 text-xl font-bold border-black ">Submit</button>
+                </form>
+            </section>
+            <!-- WALL -->
+            <section class=" h-screen w-2/3 bg-red-100 rounded-md flex justify-center items-center ">
+                <div class=" flex h-5/6 w-11/12 bg-yellow-50 border-2 border-yellow-400 rounded-md "
+                    id="contenedorDiv2">
+                    
+                </div>
+            </section>
+        </div>
+
+
+
+    </main>
+    <footer></footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>

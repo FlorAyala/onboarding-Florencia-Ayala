@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Events</title>
+</head>
+<body class="bg-black">
+    <header></header>
+    <main class="flex flex-col justify-center items-center">
+        <div id="contenedor" class="bg-white h-96 w-1/3 flex flex-col justify-center items-center m-5 rounded-lg ">
+             <div id="contColor" class="bg-gray-300 w-11/12 h-64 rounded-lg ">
+                <p id="text"></p>
+
+            </div>
+
+            <input type="text" name="" id="input" class="border-2 mt-5">
+            <button id="boton" class=" border-2 bg-yellow-400 px-3  text-xl font-bold border-black  mt-5">Change</button>
+        </div >
+        <!-- Ejercicio 3 -->
+        <div class="bg-white h-96 w-1/3 flex flex-col justify-center items-center m-5 rounded-lg "> 
+            <label class="flex flex-col"> Estatura
+                <p>En centimetros</p>
+                <input type="number" class="border-2 mt-5" id="estatura">
+            </label>
+            <label class="flex flex-col mt-5" > Peso
+                <p>En kilos</p>
+                <input type="number" class="border-2 mt-5" id="peso">                
+            </label>
+            <button id="boton2" class=" border-2 bg-yellow-400 px-3  text-xl font-bold border-black  mt-5" >Calculate</button>
+        </div>
+        <!-- EJERCICIO 4 -->
+        <div class="bg-white h-96 w-1/3 flex flex-col justify-center items-center m-5 rounded-lg "> 
+            <label class="flex flex-col"> MONTO DE MONEDA LOCAL
+                <p>Sin comas ni puntos</p>
+                <input type="number" class="border-2 mt-5" id="monedaLocal">
+            </label>
+            <label class="flex flex-col mt-5" > MONTO EN DOLARES
+                <p>Sin comas ni putos</p>
+                <input type="number" class="border-2 mt-5" id="dolares">                
+            </label>
+            <button id="boton3" class=" border-2 bg-yellow-400 px-3  text-xl font-bold border-black  mt-5" >Convert</button>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+<script src="./main.js"></script>
+</html>
